@@ -1,8 +1,81 @@
 /* Primary color - #434455 */
 /* Seconadray color - #2E2F42*/
 /* accent color - #4D5AE5 */
-/* white color - ##FFFFFF */
+/* white color - #FFFFFF */
+
+:root {
+    --primary-color: #434455;
+    --secondary-color: #2E2F42;
+    --accent-color: #4D5AE5;
+    --white-color: #FFFFFF;
+}
 
 body {
-    font-family: 'Raleway', 'Roboto', sans-serif;
+    background-color: var(--white-color);
+    color: var(--primary-color);
+}
+
+ul {
+    list-style: none;
+}
+ /* Header */
+.logo .web {
+    color: var(--accent-color);
+}
+.logo .studio {
+    color: var(--secondary-color);
+}
+
+.site-nav .link {
+    color: var(--secondary-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.address .link:hover,
+.address .link:focus {
+    color: var(--accent-color);
+}
+
+.address .link {
+    color: var(--primary-color);
+}
+
+/* List */
+
+.feature-list .title {
+    color: var(--secondary-color);
+}
+/* Hero section */
+
+.hero {
+    background-color: var(--secondary-color);
+}
+
+.hero-title {
+    color: var(--white-color);
+
+}
+.button {
+background: var(--accent-color);
+color: var(--white-color);
+cursor: pointer;
+}
+
+ /* Footer */
+
+.footer {
+    background: var(--secondary-color);
+}
+
+.footer p {
+    color: #F4F4FD;
+}
+
+.footer .web {
+    color: var(--accent-color);
+}
+
+.footer .studio {
+    color: #F4F4FD;
 }
