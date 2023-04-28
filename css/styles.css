@@ -8,18 +8,37 @@
     --secondary-color: #2E2F42;
     --accent-color: #4D5AE5;
     --white-color: #FFFFFF;
+    --grey-color: #F4F4FD;
 }
 
 body {
     background-color: var(--white-color);
     color: var(--primary-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+   }
+
+.ourteam {
+    background-color: var(--grey-color);
 }
 
-.nav ul, .section ul,
-.address ul {
+.hidden-title {
+    font-size: 0;
+
+}
+.site-nav, .list, .feature-list {
     list-style: none;
 }
  /* Header */
+
+ .logo {
+    font-family: Raleway, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 18px;
+    line-height: 1.16;
+    text-transform: uppercase;
+ }
 .logo .web {
     color: var(--accent-color);
 }
@@ -29,7 +48,11 @@ body {
 
 .site-nav .link {
     color: var(--secondary-color);
-}
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+       }
 
 .site-nav .link:hover,
 .site-nav .link:focus,
@@ -40,13 +63,21 @@ body {
 
 .address .link {
     color: var(--primary-color);
+    text-decoration: none;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+        
 }
 
 /* List */
 
-.feature-list .title {
+.feature-list .title, .title {
     color: var(--secondary-color);
-}
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+           }
 /* Hero section */
 
 .hero {
@@ -55,10 +86,28 @@ body {
 
 .hero-title {
     color: var(--white-color);
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+   
+}
 
+.section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.button:hover, button:focus {
+    color: tomato;
 }
 .button {
-cursor: pointer;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .button.primary {
@@ -67,7 +116,7 @@ cursor: pointer;
 }
 
 .button.secondary {
-    background-color: #F4F4FD;
+    background-color: var(--grey-color);
     color: var(--accent-color)
 }
 
@@ -78,7 +127,7 @@ cursor: pointer;
 }
 
 .footer p {
-    color: #F4F4FD;
+    color: var(--grey-color);
 }
 
 .footer .web {
@@ -86,5 +135,5 @@ cursor: pointer;
 }
 
 .footer .studio {
-    color: #F4F4FD;
+    color: var(--grey-color);
 }
