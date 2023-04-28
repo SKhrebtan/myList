@@ -15,7 +15,8 @@ body {
     color: var(--primary-color);
 }
 
-ul {
+.nav ul, section ul,
+.address ul {
     list-style: none;
 }
  /* Header */
@@ -57,9 +58,17 @@ ul {
 
 }
 .button {
-background: var(--accent-color);
-color: var(--white-color);
 cursor: pointer;
+}
+
+.button.primary {
+    background-color: var(--accent-color);
+    color: var(--white-color)
+}
+
+.button.secondary {
+    background-color: #F4F4FD;
+    color: var(--accent-color)
 }
 
  /* Footer */
