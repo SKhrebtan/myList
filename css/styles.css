@@ -15,7 +15,7 @@ body {
     color: var(--primary-color);
 }
 
-.nav ul, section ul,
+.nav ul, .section ul,
 .address ul {
     list-style: none;
 }
