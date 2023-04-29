@@ -65,10 +65,12 @@ body {
     color: var(--active-color);
 }
 
+.address {
+    font-style: normal;
+}
 .address .link {
     color: var(--primary-color);
     text-decoration: none;
-    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
         
@@ -76,11 +78,12 @@ body {
 
 /* List */
 
-.feature-list .title, .title {
+.list .title, .title {
     color: var(--secondary-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
            }
 /* Hero section */
 
@@ -92,6 +95,7 @@ body {
     color: var(--white-color);
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: 0.02em;
     text-align: center;
    
 }
@@ -99,8 +103,17 @@ body {
 .section-title {
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    color: var(--secondary-color)
+}
+
+.text {
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em; 
+color: var(--primary-color);
 }
 
 /* Button */
@@ -119,10 +132,19 @@ body {
     background-color: var(--accent-color);
     color: var(--white-color)
 }
+.button.primary:hover,
+.button.primary:focus {
+    color: var(--active-color);
+}
 
 .button.secondary {
     background-color: var(--grey-color);
     color: var(--accent-color)
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+    color: var(--active-color)
 }
 
  /* Footer */
