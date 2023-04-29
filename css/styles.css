@@ -39,7 +39,7 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    
+
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
@@ -102,9 +102,8 @@ body {
     text-transform: capitalize;
 }
 
-.button:hover, button:focus {
-    color: tomato;
-}
+/* Button */
+
 .button {
     cursor: pointer;
     font-weight: 500;
