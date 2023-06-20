@@ -2,10 +2,9 @@
   "name": "terminaltest",
   "version": "1.0.0",
   "description": "",
-  "source": "src/index.html",
   "homepage": "https://SKhrebtan.github.io/myList/",
   "scripts": {
-    "start": "parcel",
+    "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /myList/"
   },
   "keywords": [],
